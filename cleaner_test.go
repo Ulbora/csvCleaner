@@ -20,7 +20,7 @@ func TestCleanFile(t *testing.T) {
 		log.Println("csv error: ", err)
 	}
 	fmt.Println("records", records)
-	if err != nil{
+	if err != nil {
 		t.Fail()
 	}
 }
