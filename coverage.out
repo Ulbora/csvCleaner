@@ -1,4 +1,5 @@
 mode: set
-github.com/Ulbora/csvCleaner/cleaner.go:38.54,41.16 3 1
-github.com/Ulbora/csvCleaner/cleaner.go:48.2,48.23 1 1
-github.com/Ulbora/csvCleaner/cleaner.go:41.16,47.3 2 1
+github.com/Ulbora/csvCleaner/cleaner.go:39.56,42.16 3 1
+github.com/Ulbora/csvCleaner/cleaner.go:50.2,50.23 1 1
+github.com/Ulbora/csvCleaner/cleaner.go:42.16,47.3 2 1
+github.com/Ulbora/csvCleaner/cleaner.go:47.7,49.3 1 1

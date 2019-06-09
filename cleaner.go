@@ -1,6 +1,7 @@
 package cleaner
 
 import (
+	"log"
 	"strings"
 	//"fmt"
 	"io/ioutil"
@@ -43,6 +44,8 @@ func (c *CsvFileCleaner) CleanFile(file string) []byte {
 		//fmt.Println(string(srcStr))
 		srcStr = strings.ReplaceAll(srcStr, "\"", "")
 		//fmt.Println("cleaned: ", srcStr)
+	} else {
+		log.Println("source file in read err", err)
 	}
 	return []byte(srcStr)
 }

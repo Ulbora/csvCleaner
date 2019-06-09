@@ -24,3 +24,14 @@ func TestCleanFile(t *testing.T) {
 		t.Fail()
 	}
 }
+
+func TestCleanFile2(t *testing.T) {
+	var fc FileCleaner
+	var c CsvFileCleaner
+	fc = &c
+	f := fc.CleanFile("./test1/test11222.csv")
+	fmt.Println("File in bad test: ", string(f))
+	if len(f) > 0 {
+		t.Fail()
+	}
+}
